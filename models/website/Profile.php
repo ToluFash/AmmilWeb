@@ -39,7 +39,7 @@ class Profile{
 
         }
 
-        return json_encode(["profiles" =>$result]);
+        return json_encode(['profiles' =>mb_convert_encoding($result, 'UTF-8', 'UTF-8')]);
 
     }
 
