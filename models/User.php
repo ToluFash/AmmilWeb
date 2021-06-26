@@ -2,7 +2,7 @@
 namespace models;
 use controller\Database;
 
-require_once "controller\Database.php";
+require_once "..\controller\Database.php";
 
 
 class User
