@@ -2,7 +2,7 @@
 namespace models\website;
 use controller\Database;
 
-require_once $_SERVER['DOCUMENT_ROOT']."\controller\Database.php";
+require_once $_SERVER['DOCUMENT_ROOT']."/controller/Database.php";
 
 /**
  * Created by PhpStorm.

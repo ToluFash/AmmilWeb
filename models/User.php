@@ -2,7 +2,7 @@
 namespace models;
 use controller\Database;
 
-require_once $_SERVER['DOCUMENT_ROOT']."\controller\Database.php";
+require_once $_SERVER['DOCUMENT_ROOT']."/controller/Database.php";
 
 
 class User
