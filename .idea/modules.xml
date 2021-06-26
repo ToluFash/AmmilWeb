@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/AmmilServer.iml" filepath="$PROJECT_DIR$/.idea/AmmilServer.iml" />
+      <module fileurl="file://$USER_HOME$/PhpstormProjects/payrollmgr/.idea/PayrollManager.iml" filepath="$USER_HOME$/PhpstormProjects/payrollmgr/.idea/PayrollManager.iml" />
+      <module fileurl="file://C:/xampp2/htdocs/eproc/.idea/eproc.iml" filepath="C:/xampp2/htdocs/eproc/.idea/eproc.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/htdocs/lubulu/.idea/lubulu.iml" filepath="$USER_HOME$/Downloads/htdocs/lubulu/.idea/lubulu.iml" />
+    </modules>
+  </component>
+</project>
