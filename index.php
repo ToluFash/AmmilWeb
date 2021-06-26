@@ -58,7 +58,7 @@ function logP($string){
          break;
      //
      case "/getProfiles":
-         if($_SERVER['HTTP_ORIGIN'] == "http://ammilbank.com") {
+         if($_SERVER['HTTP_ORIGIN'] == "https://ammilmfi.com") {
              header("Cache-Control: public");
              header("Content-Type: application/json;charset=utf-8");
              echo Profile::getProfiles();
@@ -68,7 +68,7 @@ function logP($string){
 
      case "/core":
          {
-             if($_SERVER['HTTP_ORIGIN'] == "http://ammilbank.com"){
+             if($_SERVER['HTTP_ORIGIN'] == "https://ammilmfi.com"){
                  header("Cache-Control: public");
                  header("Content-Type: application/json;charset=utf-8");
                  switch($_POST['type']){
