@@ -3229,7 +3229,7 @@ function dpi(){
         mouseClicked(e){
             switch (e.getEvent()) {
                 case"click": {
-                        this.frame.switchToPage("/profile/"+this.href.replace(" ",""))
+                    this.frame.switchToPage("/profile/"+this.href.replace(" ",""))
 
 
                 }
@@ -3346,7 +3346,7 @@ function dpi(){
         mouseClicked(e){
             switch (e.getEvent()) {
                 case"click": {
-                        this.frame.switchToPage("/profile/"+this.href.replace(" ",""))
+                    this.frame.switchToPage("/profile/"+this.href.replace(" ",""))
 
 
                 }
@@ -3548,10 +3548,11 @@ function dpi(){
         d1366(){
             this.transition = true;
             this.center.addCustomStyle([
-                Height(600, 'px'),
+                Height(screen.height-130-65, 'px'),
                 Margin('auto', ''),
                 Width(screen.width,'px'),
                 OverflowX("hidden"),
+                OverflowY("hidden"),
                 BackgroundColor(colorScheme.getSecondaryColor()),
                 Border(BORDERWIDTH.THIN, BORDERSTYLE.HIDDEN),
                 Position("relative"),
@@ -4303,9 +4304,9 @@ function dpi(){
             this.titleArea =Division('titleArea');
             this.image = new HImage(this.id+'bgc',"/getBackground.jpg","");
             this.image.addCustomStyle([
-                Width(100),
-                Position("absolute"),
-                PositionLeft(0,'px')
+                    Width(100),
+                    Position("absolute"),
+                    PositionLeft(0,'px')
                 ]
             );
             this.center.addComponent(this.image);
@@ -8215,9 +8216,9 @@ function dpi(){
                         this.team.addComponent(
                             profile.position === "Managing Director"?
                                 new Staff("staff"+profile.id, profile.image, profile.firstname, profile.lastname, profile.position,profile.content,profile.edu,profile.exp,profile.certs, this.frame).addCustomStyle([
-                                Display('block'),
-                                Width(100,'%'),
-                            ]):  new Staff("staff"+profile.id, profile.image, profile.firstname, profile.lastname, profile.position,profile.content,profile.edu,profile.exp,profile.certs, this.frame)
+                                    Display('block'),
+                                    Width(100,'%'),
+                                ]):  new Staff("staff"+profile.id, profile.image, profile.firstname, profile.lastname, profile.position,profile.content,profile.edu,profile.exp,profile.certs, this.frame)
                         );
                     }
                 }
@@ -10398,11 +10399,11 @@ function dpi(){
                 default:
                 {
                     if(path.substr(0,8) === "/profile"){
-                    if (pages[path]){
-                        this.refreshBody(pages[path],path);
-                        break;
+                        if (pages[path]){
+                            this.refreshBody(pages[path],path);
+                            break;
+                        }
                     }
-                }
                     this.refreshBody2(this.homeP,"/");
                     break;
                 }
@@ -10510,7 +10511,7 @@ function dpi(){
                     page.addCustomStyle(Display('block'));
                     loader.getLoaderLeft().addCustomStyle(Height(page.domElement.offsetHeight+16,'px'));
                     loader.getLoaderRight().addCustomStyle(Height(page.domElement.offsetHeight+16,'px'));
-                    history.pushState({}, title, "http://ammilbank.com"+path.replace(/\s+/g,''));
+                    history.pushState({}, title, "http://ammilmfi.com"+path.replace(/\s+/g,''));
                     this.current = page;
                     this.timeout =setTimeout(()=>{
                         page.addCustomStyle(Opacity(1));
@@ -10830,7 +10831,7 @@ function dpi(){
 })();
 
 function initMap(){
-    const headOffice = {lat: 7.833214,lng: 3.933085}
+    const headOffice = {lat: 7.833214,lng: 3.933085};
     const map = new google.maps.Map(document.getElementById("map"), {
         zoom: 4,
         center: headOffice,
