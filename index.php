@@ -444,6 +444,8 @@ function logP($string){
          header("Cache-Control: public"); // needed for internet explorer
          header("Content-Type: image/png");
          header("Content-Transfer-Encoding: Binary");
+         header("Content-Length:".filesize("assets/images/cValues.png"));
+         header("Content-Disposition: attachment; filename=cValues.png");
          readfile("assets/images/cValues.png");
          break;
      case "/getServiceBannerSF1.jpg":
