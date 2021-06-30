@@ -6780,6 +6780,18 @@ function dpi(){
                     BorderRadius(5,'px'),
                 ]
             );
+            this.header5.addCustomStyle(
+                [
+                    FontFamily("segoe ui"),
+                    FontSize(20,'pt'),
+                    FontWeight("bold"),
+                    Margin(0,'px').setLeft(50),
+                    Width(90,'vw'),
+                    Color(colorScheme.getPrimaryColor()),
+                    Padding(0,'px').setLeft(10),
+                    BorderRadius(5,'px'),
+                ]
+            );
             this.image.addCustomStyle([
                 Display("block"),
                 Margin("auto",""),
@@ -6787,6 +6799,10 @@ function dpi(){
                 PositionLeft(-screen.width /12.8,'px'),
                 Height(724,'px'),
                 Width(724,'px')
+            ]);
+            this.cValues.addCustomStyle([
+                Margin(0,'px').setLeft(50),
+                Padding(0,'px').setLeft(10),
             ]);
             this.mS.addCustomStyle([
                 Width(90,'vw'),
@@ -6899,6 +6915,18 @@ function dpi(){
                     BorderRadius(5,'px'),
                 ]
             );
+            this.header5.addCustomStyle(
+                [
+                    FontFamily("segoe ui"),
+                    FontSize(20,'pt'),
+                    FontWeight("bold"),
+                    Margin(0,'px').setLeft(50),
+                    Width(90,'vw'),
+                    Color(colorScheme.getPrimaryColor()),
+                    Padding(0,'px').setLeft(10),
+                    BorderRadius(5,'px'),
+                ]
+            );
             this.image.addCustomStyle([
                 Display("block"),
                 Margin("auto",""),
@@ -6906,6 +6934,10 @@ function dpi(){
                 PositionLeft(-screen.width /12.8,'px'),
                 Height(724,'px'),
                 Width(724,'px')
+            ]);
+            this.cValues.addCustomStyle([
+                Margin(0,'px').setLeft(50),
+                Padding(0,'px').setLeft(10),
             ]);
             this.mS.addCustomStyle([
                 Width(90,'vw'),
@@ -7018,6 +7050,18 @@ function dpi(){
                     BorderRadius(5,'px'),
                 ]
             );
+            this.header5.addCustomStyle(
+                [
+                    FontFamily("segoe ui"),
+                    FontSize(20,'pt'),
+                    FontWeight("bold"),
+                    Margin(0,'px').setLeft(50),
+                    Width(90,'vw'),
+                    Color(colorScheme.getPrimaryColor()),
+                    Padding(0,'px').setLeft(10),
+                    BorderRadius(5,'px'),
+                ]
+            );
             this.image.addCustomStyle([
                 Display("block"),
                 Margin("auto",""),
@@ -7025,6 +7069,10 @@ function dpi(){
                 PositionLeft(-screen.width /12.8,'px'),
                 Height(724,'px'),
                 Width(724,'px')
+            ]);
+            this.cValues.addCustomStyle([
+                Margin(0,'px').setLeft(50),
+                Padding(0,'px').setLeft(10),
             ]);
             this.mS.addCustomStyle([
                 Width(90,'vw'),
@@ -7035,9 +7083,6 @@ function dpi(){
 
             this.vision.addCustomStyle([
                 Float("left")
-            ]);
-            this.image.addCustomStyle([
-
             ]);
             this.mission.addCustomStyle([
                 Float("right")
@@ -7139,6 +7184,18 @@ function dpi(){
                     BorderRadius(5,'px'),
                 ]
             );
+            this.header5.addCustomStyle(
+                [
+                    FontFamily("segoe ui"),
+                    FontSize(20,'pt'),
+                    FontWeight("bold"),
+                    Margin(0,'px').setLeft(50),
+                    Width(90,'vw'),
+                    Color(colorScheme.getPrimaryColor()),
+                    Padding(0,'px').setLeft(10),
+                    BorderRadius(5,'px'),
+                ]
+            );
             this.image.addCustomStyle([
                 Display("block"),
                 Margin("auto",""),
@@ -7146,6 +7203,10 @@ function dpi(){
                 PositionLeft(-screen.width /11,'px'),
                 Height(724,'px'),
                 Width(724,'px')
+            ]);
+            this.cValues.addCustomStyle([
+                Margin(0,'px').setLeft(50),
+                Padding(0,'px').setLeft(10),
             ]);
             this.mS.addCustomStyle([
                 Width(90,'vw'),
@@ -7263,6 +7324,18 @@ function dpi(){
                     BorderRadius(5,'px'),
                 ]
             );
+            this.header5.addCustomStyle(
+                [
+                    FontFamily("segoe ui"),
+                    FontSize(20,'pt'),
+                    FontWeight("bold"),
+                    Margin(0,'px').setLeft(50),
+                    Width(90,'vw'),
+                    Color(colorScheme.getPrimaryColor()),
+                    Padding(0,'px').setLeft(10),
+                    BorderRadius(5,'px'),
+                ]
+            );
             this.image.addCustomStyle([
                 Display("block"),
                 Margin("auto",""),
@@ -7270,6 +7343,10 @@ function dpi(){
                 PositionLeft(-screen.width /9,'px'),
                 Height(724,'px'),
                 Width(724,'px'),
+            ]);
+            this.cValues.addCustomStyle([
+                Margin(0,'px').setLeft(50),
+                Padding(0,'px').setLeft(10),
             ]);
             this.mS.addCustomStyle([
                 Width(90,'vw'),
@@ -7377,6 +7454,18 @@ function dpi(){
                     BorderRadius(5,'px'),
                 ]
             );
+            this.header5 .addCustomStyle(
+                [
+                    FontFamily("segoe ui"),
+                    FontSize(20,'pt'),
+                    FontWeight("bold"),
+                    Margin(0,'px').setLeft(50),
+                    Width(90,'vw'),
+                    Color(colorScheme.getPrimaryColor()),
+                    Padding(0,'px').setLeft(10),
+                    BorderRadius(5,'px'),
+                ]
+            );
             this.image.addCustomStyle([
                 Display("block"),
                 Margin("auto",""),
@@ -7384,6 +7473,10 @@ function dpi(){
                 PositionLeft(0,'px'),
                 Height(724,'px'),
                 Width(724,'px'),
+            ]);
+            this.cValues.addCustomStyle([
+                Margin(0,'px').setLeft(50),
+                Padding(0,'px').setLeft(10),
             ]);
             this.mS.addCustomStyle([
                 Width(90,'vw'),
@@ -7494,6 +7587,18 @@ function dpi(){
                     BorderRadius(5,'px'),
                 ]
             );
+            this.header5.addCustomStyle(
+                [
+                    FontFamily("segoe ui"),
+                    FontSize(20,'pt'),
+                    FontWeight("bold"),
+                    Margin(0,'px').setLeft(50),
+                    Width(90,'vw'),
+                    Color(colorScheme.getPrimaryColor()),
+                    Padding(0,'px').setLeft(10),
+                    BorderRadius(5,'px'),
+                ]
+            );
             this.image.addCustomStyle([
                 Display("block"),
                 Margin("auto",""),
@@ -7501,6 +7606,10 @@ function dpi(){
                 PositionLeft(0,'px'),
                 Height(500,'px'),
                 Width(500,'px'),
+            ]);
+            this.cValues.addCustomStyle([
+                Margin(0,'px').setLeft(50),
+                Padding(0,'px').setLeft(10),
             ]);
             this.mS.addCustomStyle([
                 Width(90,'vw'),
@@ -7612,6 +7721,18 @@ function dpi(){
                     BorderRadius(5,'px'),
                 ]
             );
+            this.header5.addCustomStyle(
+                [
+                    FontFamily("segoe ui"),
+                    FontSize(20,'pt'),
+                    FontWeight("bold"),
+                    Margin(0,'px').setLeft(0),
+                    Width(90,'vw'),
+                    Color(colorScheme.getPrimaryColor()),
+                    Padding(0,'px').setLeft(10),
+                    BorderRadius(5,'px'),
+                ]
+            );
             this.image.addCustomStyle([
                 Height(500,'px'),
                 Width(500,'px'),
@@ -7619,6 +7740,10 @@ function dpi(){
                 Margin("auto",""),
                 Position(),
                 PositionLeft(-15,'px')
+            ]);
+            this.cValues.addCustomStyle([
+                Margin(0,'px').setLeft(0),
+                Padding(0,'px').setLeft(10),
             ]);
             this.mS.addCustomStyle([
                 Width(95,'vw'),
@@ -7629,9 +7754,6 @@ function dpi(){
 
             this.vision.addCustomStyle([
                 Float("left")
-            ]);
-            this.image.addCustomStyle([
-
             ]);
             this.mission.addCustomStyle([
                 Float("right")
@@ -7733,6 +7855,18 @@ function dpi(){
                     BorderRadius(5,'px'),
                 ]
             );
+            this.header5.addCustomStyle(
+                [
+                    FontFamily("segoe ui"),
+                    FontSize(16,'pt'),
+                    FontWeight("bold"),
+                    Margin(0,'px').setLeft(0),
+                    Width(90,'vw'),
+                    Color(colorScheme.getPrimaryColor()),
+                    Padding(0,'px').setLeft(10),
+                    BorderRadius(5,'px'),
+                ]
+            );
             this.image.addCustomStyle([
                 Height(300,'px'),
                 Width(300,'px'),
@@ -7740,6 +7874,10 @@ function dpi(){
                 Margin("auto",""),
                 Position(),
                 PositionLeft(-15,'px')
+            ]);
+            this.cValues.addCustomStyle([
+                Margin(0,'px').setLeft(0),
+                Padding(0,'px').setLeft(10),
             ]);
             this.mS.addCustomStyle([
                 Width(95,'vw'),
@@ -7750,9 +7888,6 @@ function dpi(){
 
             this.vision.addCustomStyle([
                 Float("left")
-            ]);
-            this.image.addCustomStyle([
-
             ]);
             this.mission.addCustomStyle([
                 Float("right")
@@ -7855,6 +7990,18 @@ function dpi(){
                     BorderRadius(5,'px'),
                 ]
             );
+            this.header5.addCustomStyle(
+                [
+                    FontFamily("segoe ui"),
+                    FontSize(16,'pt'),
+                    FontWeight("bold"),
+                    Margin(0,'px').setLeft(0),
+                    Width(90,'vw'),
+                    Color(colorScheme.getPrimaryColor()),
+                    Padding(0,'px').setLeft(10),
+                    BorderRadius(5,'px'),
+                ]
+            );
             this.image.addCustomStyle([
                 Height(300,'px'),
                 Width(300,'px'),
@@ -7862,6 +8009,10 @@ function dpi(){
                 Margin("auto",""),
                 Position(),
                 PositionLeft(-15,'px')
+            ]);
+            this.cValues.addCustomStyle([
+                Margin(0,'px').setLeft(0),
+                Padding(0,'px').setLeft(10),
             ]);
             this.mS.addCustomStyle([
                 Width(95,'vw'),
@@ -7872,9 +8023,6 @@ function dpi(){
 
             this.vision.addCustomStyle([
                 Float("left")
-            ]);
-            this.image.addCustomStyle([
-
             ]);
             this.mission.addCustomStyle([
                 Float("right")
@@ -7978,6 +8126,18 @@ function dpi(){
                     BorderRadius(5,'px'),
                 ]
             );
+            this.header5.addCustomStyle(
+                [
+                    FontFamily("segoe ui"),
+                    FontSize(16,'pt'),
+                    FontWeight("bold"),
+                    Margin(0,'px').setLeft(0),
+                    Width(90,'vw'),
+                    Color(colorScheme.getPrimaryColor()),
+                    Padding(0,'px').setLeft(10),
+                    BorderRadius(5,'px'),
+                ]
+            );
             this.image.addCustomStyle([
                 Height(300,'px'),
                 Width(300,'px'),
@@ -7985,6 +8145,10 @@ function dpi(){
                 Margin("auto",""),
                 Position(),
                 PositionLeft(-15,'px')
+            ]);
+            this.cValues.addCustomStyle([
+                Margin(0,'px').setLeft(0),
+                Padding(0,'px').setLeft(10),
             ]);
             this.mS.addCustomStyle([
                 Width(95,'vw'),
@@ -7995,9 +8159,6 @@ function dpi(){
 
             this.vision.addCustomStyle([
                 Float("left")
-            ]);
-            this.image.addCustomStyle([
-
             ]);
             this.mission.addCustomStyle([
                 Float("right")
@@ -8099,6 +8260,18 @@ function dpi(){
                     BorderRadius(5,'px'),
                 ]
             );
+            this.header5.addCustomStyle(
+                [
+                    FontFamily("segoe ui"),
+                    FontSize(16,'pt'),
+                    FontWeight("bold"),
+                    Margin(0,'px').setLeft(0),
+                    Width(90,'vw'),
+                    Color(colorScheme.getPrimaryColor()),
+                    Padding(0,'px').setLeft(10),
+                    BorderRadius(5,'px'),
+                ]
+            );
             this.image.addCustomStyle([
                 Height(300,'px'),
                 Width(300,'px'),
@@ -8106,6 +8279,10 @@ function dpi(){
                 Margin("auto",""),
                 Position(),
                 PositionLeft(-15,'px')
+            ]);
+            this.cValues.addCustomStyle([
+                Margin(0,'px').setLeft(0),
+                Padding(0,'px').setLeft(10),
             ]);
             this.mS.addCustomStyle([
                 Width(95,'vw'),
@@ -8116,9 +8293,6 @@ function dpi(){
 
             this.vision.addCustomStyle([
                 Float("left")
-            ]);
-            this.image.addCustomStyle([
-
             ]);
             this.mission.addCustomStyle([
                 Float("right")
@@ -8156,10 +8330,15 @@ function dpi(){
             this.header2 = Paragraph(this.id+"header2").setTextContent("WHAT WE DO");
             this.header3 = Paragraph(this.id+"header3").setTextContent("BOARD OF DIRECTORS");
             this.header4 = Paragraph(this.id+"header4").setTextContent("THE TEAM");
+            this.header5 = Paragraph(this.id+"header5").setTextContent("OUR CORE VALUES");
             this.mS = Division(this.id +"_mS");
 
             this.vision = new VM('vision',"Vision","To Be The Foremost Financial Institution that Promotes and Protects Human Dignity");
             this.image= new HImage("vmImg","/getVm.png","Vision and Mission");
+            this.cValues = new HImage("cValues","/getCValues.png","Core Values");
+            this.cValues.domElement.addEventListener("load",()=>{
+                this.loaded = true;
+            });
             this.image.domElement.addEventListener("load",()=>{
                 this.loaded = true;
             });
@@ -8226,6 +8405,8 @@ function dpi(){
 
             this.center.addComponent([
                 this.intro,
+                this.header5,
+                this.cValues,
                 this.header1,
                 this.mS,
                 this.header2,
@@ -10831,7 +11012,7 @@ function dpi(){
 })();
 
 function initMap(){
-    const headOffice = {lat: 7.833214,lng: 3.933085};
+    const headOffice = {lat: 7.833214,lng: 3.933085}
     const map = new google.maps.Map(document.getElementById("map"), {
         zoom: 4,
         center: headOffice,
