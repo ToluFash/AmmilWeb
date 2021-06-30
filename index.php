@@ -440,6 +440,14 @@ function logP($string){
          header("Content-Disposition: attachment; filename=vm.png");
          readfile("assets/images/vm.png");
          break;
+     case "/getCValues.png":
+         header("Cache-Control: public"); // needed for internet explorer
+         header("Content-Type: image/png");
+         header("Content-Transfer-Encoding: Binary");
+         header("Content-Length:".filesize("assets/images/cvalues.png"));
+         header("Content-Disposition: attachment; filename=cvalues.png");
+         readfile("assets/images/cvalues.png");
+         break;
      case "/getServiceBannerSF1.jpg":
          header("Cache-Control: public"); // needed for internet explorer
          header("Content-Type: image/jpg");
