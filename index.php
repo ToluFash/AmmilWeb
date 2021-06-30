@@ -58,11 +58,9 @@ function logP($string){
          break;
      //
      case "/getProfiles":
-         if($_SERVER['HTTP_ORIGIN'] == "https://ammilmfi.com") {
              header("Cache-Control: public");
              header("Content-Type: application/json;charset=utf-8");
              echo Profile::getProfiles();
-         }
          break;
 
 
