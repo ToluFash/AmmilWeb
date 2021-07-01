@@ -296,6 +296,13 @@ function dpi(){
     }
     let loader = new Loader();
     loader.fadeIn();
+
+
+
+
+
+
+
     class LoaderSmall extends HDivision{
         constructor(id="loader-wrapperS") {
             super(id);
@@ -3131,12 +3138,12 @@ function dpi(){
                     TextDecoration(TEXTDECORATION.NONE),
                     Display("block")
                 ]),
-                Anchor('footerText4', "http://twitter.com/ammilmfi").setTextContent("Twitter").addCustomStyle([
+                /*Anchor('footerText4', "http://twitter.com/ammilmfi").setTextContent("Twitter").addCustomStyle([
                     Margin(0,'px').setLeft(20),
                     Color('ffffff'),
                     TextDecoration(TEXTDECORATION.NONE),
                     Display("block")
-                ])
+                ])*/
             ])
 
         }
@@ -10747,7 +10754,7 @@ function dpi(){
                 ,2720);
             this.notice2 = new NoticeM('notice2', "Please note that this website is under construction, our IT team are working tirelessly to build the best for you. Thank you."
                 ,1000);
-            this.header.addComponent([this.navigation, this.notice, this.notice2]);
+            this.header.addComponent([this.navigation/*, this.notice*/, this.notice2]);
 
             let home = new NavLink("home", "Home","/",this, 60);
             this.servicesN = new NavLink("servicesN", "Products","/services",this, 80);
