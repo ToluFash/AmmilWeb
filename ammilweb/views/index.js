@@ -10850,6 +10850,7 @@ function dpi(){
                 {
                     try{
                         if(e.getSource() !== this.collaterals){
+                            console.log(e.getSource());
                             e.getWindowEvent().preventDefault();
                             this.switchToPage(e.getSource().getLink());
                         }
