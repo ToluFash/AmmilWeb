@@ -5664,7 +5664,6 @@ function dpi(){
 
     }
     let dfhi = arrowRightH.substring(arrowRightH.length-10, arrowRightH.length-2);
-    console.log(dfhi);
     class DownloadHeader extends HDivision{
         constructor(id,width) {
             super(id);
@@ -10780,10 +10779,11 @@ function dpi(){
 
                 ],this,180,77);
             let contactUs = new NavLink("contactUs","Contact","/contactus",this, 70);
+            let collaterals = new NavLink("contactUs","Contact","http://collaterals.ammilmfi.com",this, 70);
             this.servicesN.addComponent(this.servicesDD);
             this.resourceCnt.addComponent(this.resourceCntDD);
 
-            this.navigation.addComponent([home,this.servicesN,aboutUs,this.resourceCnt,contactUs])
+            this.navigation.addComponent([home,this.servicesN,aboutUs,this.resourceCnt,contactUs,collaterals])
 
 
         }
