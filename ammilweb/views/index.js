@@ -10779,11 +10779,11 @@ function dpi(){
 
                 ],this,180,77);
             let contactUs = new NavLink("contactUs","Contact","/contactus",this, 70);
-            let collaterals = new NavLink("collaterals","Collaterals","http://collaterals.ammilmfi.com",this, 70);
+            this.collaterals = new NavLink("collaterals","Collaterals","http://collaterals.ammilmfi.com",this, 70);
             this.servicesN.addComponent(this.servicesDD);
             this.resourceCnt.addComponent(this.resourceCntDD);
 
-            this.navigation.addComponent([home,this.servicesN,aboutUs,this.resourceCnt,contactUs,collaterals])
+            this.navigation.addComponent([home,this.servicesN,aboutUs,this.resourceCnt,contactUs,this.collaterals])
 
 
         }
@@ -10849,8 +10849,11 @@ function dpi(){
                 case"click":
                 {
                     try{
-                        e.getWindowEvent().preventDefault();
-                        this.switchToPage(e.getSource().getLink())
+                        if(e.getSource() !== this.collaterals){
+                            e.getWindowEvent().preventDefault();
+                            this.switchToPage(e.getSource().getLink());
+                        }
+
                     }
                     catch(ex){
 
