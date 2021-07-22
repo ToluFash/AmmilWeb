@@ -10849,8 +10849,7 @@ function dpi(){
                 case"click":
                 {
                     try{
-                        if(e.getSource() !== this.collaterals){
-                            console.log(e.getSource());
+                        if(e.getSource() !== this.collaterals.anchor){
                             e.getWindowEvent().preventDefault();
                             this.switchToPage(e.getSource().getLink());
                         }
