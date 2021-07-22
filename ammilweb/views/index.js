@@ -10852,6 +10852,8 @@ function dpi(){
                         if(e.getSource() !== this.collaterals.anchor){
                             e.getWindowEvent().preventDefault();
                             this.switchToPage(e.getSource().getLink());
+                        }else{
+                            window.open(e.getSource().getLink());
                         }
 
                     }
