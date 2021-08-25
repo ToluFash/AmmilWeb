@@ -10778,7 +10778,7 @@ function dpi(){
 
                 ],this,180,77);
             let contactUs = new NavLink("contactUs","Contact","/contactus",this, 70);
-            this.collaterals = new NavLink("collaterals","Staff Portal","http://collaterals.ammilmfi.com",this, 100);
+            this.collaterals = new NavLink("collaterals","Staff Portal","http://collaterals.ammilmfi.com",this, 120);
             this.servicesN.addComponent(this.servicesDD);
             this.resourceCnt.addComponent(this.resourceCntDD);
 
