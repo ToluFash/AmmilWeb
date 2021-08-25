@@ -2871,7 +2871,6 @@ function dpi(){
                     Color(colorScheme.getPrimaryColor()),
                     Margin(0),
                     Padding(0).setTop(21).setBottom(26).setLeft(10).setRight(10),
-                    Width(75, 'px'),
                     FontSize(12,'pt'),
                     FontWeight("bold"),
                     TextAlignment('center'),
@@ -10779,7 +10778,7 @@ function dpi(){
 
                 ],this,180,77);
             let contactUs = new NavLink("contactUs","Contact","/contactus",this, 70);
-            this.collaterals = new NavLink("collaterals","Staff Portal","http://collaterals.ammilmfi.com",this, 90);
+            this.collaterals = new NavLink("collaterals","Staff Portal","http://collaterals.ammilmfi.com",this, 100);
             this.servicesN.addComponent(this.servicesDD);
             this.resourceCnt.addComponent(this.resourceCntDD);
 
